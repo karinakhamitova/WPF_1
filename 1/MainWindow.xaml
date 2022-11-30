@@ -1,0 +1,100 @@
+﻿<Window x:Class="_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.Background>Black</Grid.Background>
+        <TextBlock HorizontalAlignment="Center"  Width="280" Foreground="#FF866B6B" TextAlignment="Center" Background="White" FontFamily="Arial Black" FontWeight="Bold" FontSize="22">
+            <TextBlock.VerticalAlignment>Top</TextBlock.VerticalAlignment>
+            <TextBlock.Margin>0,25,0,0</TextBlock.Margin>
+            <TextBlock.Height>75</TextBlock.Height>
+            <TextBlock.Text >Что будем делать???</TextBlock.Text>
+        </TextBlock>
+        <Button x:Name="_1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,125,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>1</Button.Content>
+        </Button>
+        <Button x:Name="_4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,200,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>4</Button.Content>
+        </Button>
+        <Button x:Name="_5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,200,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>5</Button.Content>
+        </Button>
+        <Button x:Name="_6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,200,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>6</Button.Content>
+        </Button>
+        <Button x:Name="_7" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,275,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>7</Button.Content>
+        </Button>
+        <Button x:Name="_8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,275,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>8</Button.Content>
+        </Button>
+        <Button x:Name="_9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,275,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>9</Button.Content>
+        </Button>
+        <Button x:Name="_a" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,350,0,0" Background="White" BorderBrush="#FF00FFF9" FontFamily="Arial Black" FontSize="24" Foreground="Black">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>,</Button.Content>
+        </Button>
+        <Button x:Name="_b" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,350,0,0" Background="White" BorderBrush="#FF00FFF9" FontFamily="Arial Black" FontSize="24" Foreground="Black">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>=</Button.Content>
+        </Button>
+        <Button x:Name="_0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,350,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>0</Button.Content>
+        </Button>
+        <Button x:Name="_2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,125,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>2</Button.Content>
+        </Button>
+        <Button x:Name="_3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,125,0,0" Background="White" BorderBrush="#FFA000FF" FontFamily="Arial Black" FontSize="24">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>3</Button.Content>
+        </Button>
+        <Button x:Name="_c" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,350,10,0" Background="White" BorderBrush="#FF00FFF9" FontFamily="Arial Black" FontSize="24" Foreground="Black">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>/</Button.Content>
+        </Button>
+        <Button x:Name="_d" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,275,10,0" Background="White" BorderBrush="#FF00FFF9" FontFamily="Arial Black" FontSize="24" Foreground="Black">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>*</Button.Content>
+        </Button>
+        <Button x:Name="_dd" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,200,10,0" Background="White" BorderBrush="#FF00FFF9" FontFamily="Arial Black" FontSize="24" Foreground="Black">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>-</Button.Content>
+        </Button>
+        <Button x:Name="_ddd" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,125,10,0" Background="White" BorderBrush="#FF00FFF9" FontFamily="Arial Black" FontSize="24" Foreground="Black">
+            <Button.Width>50</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>+</Button.Content>
+        </Button>
+
+
+    </Grid>
+</Window>
